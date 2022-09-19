@@ -1,0 +1,214 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+}
+#heading
+{
+    height: 150px;
+    width: 430px;
+    padding: 20px;
+}
+
+#header
+{
+    padding-left: 300px;
+}
+.topimg
+{
+    box-shadow: 0px 0px 3px #000000;
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.donate
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#btn
+{
+    border-radius: 20px;
+    padding: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-style: solid;
+    border-color: tomato;
+    font-weight: 600;
+    background-color: tomato;
+    color: white;
+    width: 40%;
+    height: 70px;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#btn:hover
+{
+    background-color:transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    cursor: pointer;
+}
+#about
+{
+    text-align: center;
+    color: rgb(90, 90, 90);
+    padding: 30px;
+    padding-top: 1px;
+}
+#gallery
+{
+    text-align: center;
+}
+#gal
+{
+    width: 400px;
+    height: 300px;
+    border-style:solid;
+    border-color: white;
+    border-width: 5px;
+    transition: 0.2s all ease;
+}
+#gal:hover {
+    width: 405px;
+    height:305px;
+    opacity: 0.8;
+}
+
+#form
+{
+    background-color: #244a3d88;
+    padding: 20px;
+    border-radius: 15px;
+    color: aliceblue;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0px 0px 2px black;
+
+}
+
+#contact
+{
+    text-align: center;
+}
+
+
+#name
+{
+  padding: 7px;
+  border-radius: 12px;
+  margin-top: 10px;
+  text-align: center;
+  border-style: solid;
+}
+
+#query
+{
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: none;
+  width: 80%;
+  height: 100px;
+  border-style: solid;
+
+}
+
+#pno
+{
+  margin-top: 20px;
+  text-align: center;
+  width: fit-content;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+#submit
+{
+  border-radius: 10px;
+  padding: 10px;
+  border-style: none;
+  font-weight: bold;
+  background-color: rgb(16, 76, 217);
+  color: white;
+  box-shadow: 0px 0px 2px #000000;
+}
+
+a:link
+{
+    text-decoration:none;
+}
+
+#footer
+{
+    background-color: rgb(11, 11, 11);
+    padding: 50px;
+    text-align: center;
+    margin-bottom: -5%;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 0px 2px black;
+}
+
+#footer i{
+    margin-right: 15px;
+}
+@media all and (max-width:1450px)
+{
+    #heading
+    {
+        width: 350px;
+        height: 110px;
+    }
+    #header
+    {
+        padding-left: 0%;
+    }
+    body
+    {
+    text-align: center;
+    }
+    .topnav
+    {
+        margin: 0%;
+        text-align: center;
+        padding:0%;
+    }
+    .donate
+    {
+        font-size: 25px;
+    }
+
+    #btn
+    {
+        width: 50%;
+        height: auto;
+        font-size: 15px;
+    }
+    #gal
+    {
+        width: 350px;
+        height: 250px;
+    }
+    #gal:hover
+    {
+        width: 355px;
+        height: 255px;
+    }
+}
